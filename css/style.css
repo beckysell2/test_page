@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;  
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    margin: 0;
+}
+
+.content { 
+    margin: 0 auto; 
+     
+}
+
+.clear { 
+    clear: both; 
+}
+
+header {
+    width: 100%;
+    background-color: #4c934c;
+    height: 60px;
+    position: fixed;
+}
+
+nav { 
+    width: 300px; 
+    float: right; 
+    margin-top: 10px; 
+}
+
+nav ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav li {
+    margin-top: 9px;
+    float: left;
+    padding-left: 20px;
+}
+
+nav li a { 
+    color: #fff;  
+    font-size: 16px; 
+    text-decoration: none; 
+    font-family: 'Anton', sans-serif;  
+}
+
+nav li a.active { 
+    color: #fff;  
+    border-bottom: 2px solid #fff; 
+}
+
+nav li a:hover { 
+    color: #ddd; 
+}
+
+#part1, #part2 {
+    width: 100%;   
+}
+
+#part1 {
+    background: url('../img/elephant.jpg')  no-repeat fixed;
+    height: 800px;
+    background-size: cover;
+}
+
+#part2 {
+    background-color: chocolate;
+    height: 300px;
+    margin: 0;
+    overflow: hidden;
+}
+
+video {
+   width: 100%;
+    height: auto;
+}
+
+#part4 {
+    background-color: #ddd;
+    color: ;
+    height: 200px;
+    overflow: hidden;
+    font-family: sans-serif;  
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    margin: 0;
+}
+
+
